@@ -1,0 +1,18 @@
+## PRGM 9
+quantity = int(input("Enter the quantity: "))
+unit_cost = 100
+
+total_cost = quantity * unit_cost
+
+if total_cost > 1000:
+    discount = 0.1 * total_cost
+    total_cost -= discount
+
+print("Total cost:", total_cost)
+
+
+
+
+OUTPUT:
+Enter the quantity: 100
+Total cost: 9000.0
