@@ -1,0 +1,28 @@
+##PROGRAM 16
+my_list = []
+n = int(input("Enter the number of elements you want in the list: "))
+for i in range(n):
+    element = input("Enter an element for the list: ")
+    my_list.append(element)
+search_element = input("Enter the element you want to search and delete: ")
+if search_element in my_list:
+    my_list.remove(search_element)
+print("Updated list:")
+for element in my_list:
+    print(element)
+    
+    
+    
+ OUTPUT:
+ Enter the number of elements you want in the list: 5
+Enter an element for the list: 10 20 30 40 50
+Enter an element for the list: 40
+Enter an element for the list: 10
+Enter an element for the list: 70
+Enter an element for the list: 60
+Enter the element you want to search and delete: 10
+Updated list:
+10 20 30 40 50
+40
+70
+60
