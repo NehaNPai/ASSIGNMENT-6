@@ -1,0 +1,22 @@
+mixed_list = [1, 2.0, 'three', 4, 5.5, 'six', 7, 'eight', 9.9]
+int_list = []
+float_list = []
+str_list = []
+for element in mixed_list:
+    if isinstance(element, int):
+        int_list.append(element)
+    elif isinstance(element, float):
+        float_list.append(element)
+    elif isinstance(element, str):
+        str_list.append(element)
+print("List of integers:", int_list)
+print("List of floats:", float_list)
+print("List of strings:", str_list)
+
+
+
+
+OUTPUT:
+ist of integers: [1, 4, 7]
+List of floats: [2.0, 5.5, 9.9]
+List of strings: ['three', 'six', 'eight']
