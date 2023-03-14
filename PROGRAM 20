@@ -1,0 +1,9 @@
+original_list = [1, 2, 3, 4, 5]
+squared_list = []
+for element in original_list:
+    squared_list.append(element**2)
+print("Squared list:", squared_list)
+
+
+OUTPUT:
+Squared list: [1, 4, 9, 16, 25]
