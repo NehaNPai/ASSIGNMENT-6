@@ -1,0 +1,13 @@
+my_list = [10, 20, 30, 40, 50, 60, 70]
+
+count = 0
+for num in my_list:
+    if num > 30:
+        count += 1
+
+print("There are", count, "elements in the list that are greater than 30.")
+
+
+
+OUTPUT:
+There are 4 elements in the list that are greater than 30.
