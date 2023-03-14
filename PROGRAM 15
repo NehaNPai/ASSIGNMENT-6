@@ -1,0 +1,25 @@
+numbers = []
+while True:
+    num = input("Enter an integer (press q to quit): ")
+    if num == "q":
+        break
+    num = int(num)
+    numbers.append(num)
+
+product = 1
+for num in numbers:
+    product *= num
+
+average = sum(numbers) / len(numbers)
+
+print("The product of the numbers is:", product)
+print("The average of the numbers is:", average)
+
+
+output:
+Enter an integer (press q to quit): 60
+Enter an integer (press q to quit): 79
+Enter an integer (press q to quit): 80
+Enter an integer (press q to quit): q
+The product of the numbers is: 379200
+The average of the numbers is: 73.0
