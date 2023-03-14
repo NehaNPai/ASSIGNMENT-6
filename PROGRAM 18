@@ -1,0 +1,18 @@
+def is_divisible_by(n, factor):
+    return n % factor == 0
+even_divisible_by_4 = [n for n in even_numbers if is_divisible_by(n, 4)]
+even_divisible_by_6 = [n for n in even_numbers if is_divisible_by(n, 6)]
+even_divisible_by_8 = [n for n in even_numbers if is_divisible_by(n, 8)]
+even_divisible_by_10 = [n for n in even_numbers if is_divisible_by(n, 10)]
+odd_divisible_by_3 = [n for n in odd_numbers if is_divisible_by(n, 3)]
+odd_divisible_by_5 = [n for n in odd_numbers if is_divisible_by(n, 5)]
+odd_divisible_by_7 = [n for n in odd_numbers if is_divisible_by(n, 7)]
+odd_divisible_by_9 = [n for n in odd_numbers if is_divisible_by(n, 9)]
+print("Even numbers divisible by 4:", even_divisible_by_4)
+print("Even numbers divisible by 6:", even_divisible_by_6)
+print("Even numbers divisible by 8:", even_divisible_by_8)
+print("Even numbers divisible by 10:", even_divisible_by_10)
+print("Odd numbers divisible by 3:", odd_divisible_by_3)
+print("Odd numbers divisible by 5:", odd_divisible_by_5)
+print("Odd numbers divisible by 7:", odd_divisible_by_7)
+print("Odd numbers divisible by 9:", odd_divisible_by_9)
