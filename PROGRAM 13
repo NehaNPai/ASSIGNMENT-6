@@ -1,0 +1,24 @@
+#PROGRAM 13
+sum = 0
+count = 0
+for i in range(10):
+    num = int(input("Enter an integer: "))
+    sum += num
+    count += 1
+average = sum / count
+print("The average value is:", average)
+
+
+
+OUTPUT:
+Enter an integer: 50
+Enter an integer: 12
+Enter an integer: 40
+Enter an integer: 50
+Enter an integer: 60
+Enter an integer: 70
+Enter an integer: 80
+Enter an integer: 90
+Enter an integer: 12
+Enter an integer: 2
+The average value is: 46.6
