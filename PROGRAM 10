@@ -1,0 +1,18 @@
+#PRGM 10
+salary = float(input("Enter your salary: "))
+years_of_service = int(input("Enter your years of service: "))
+
+bonus = 0
+
+if years_of_service > 5:
+    bonus = 0.05 * salary
+
+net_bonus = bonus
+print("Net bonus amount: ", net_bonus)
+
+
+
+OUTPUT:
+Enter your salary: 50000
+Enter your years of service: 6
+Net bonus amount:  2500.0
